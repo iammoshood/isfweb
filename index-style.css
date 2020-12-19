@@ -23,7 +23,7 @@ header{
     width: 100%;
     height: 100px;
     box-sizing: border-box;
-    padding: 20px 25px;
+    padding: 14px;
     background-color: rgb(255,255,255);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -43,7 +43,7 @@ header{
     position: relative;
     display: block;
     margin-top: 5px;
-    width: 160px;
+    width: 145px;
 }
 #large-header-content{
     display: none;
@@ -172,8 +172,8 @@ button{
     position: relative;
     width: 100%;
     height: auto;
-    margin-top: 125px;
-    padding: 10px 25px 20px 25px;
+    margin-top: 110px;
+    padding: 10px 20px 20px 20px;
     box-sizing: border-box;
     background: rgb(255,255,255);
 }
@@ -191,13 +191,13 @@ button{
 }
 .section-header{
     color: rgb(24,12,71);
-    font-size: 30px;
+    font-size: 25px;
     line-height: 0.9em;
 }
 .section-sub-header{
     color: rgb(24,12,71);
-    font-size: 15px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 20px;
 }
 #one-image{
     display: none;
@@ -207,13 +207,11 @@ button{
     width: auto;
     height: auto;
     margin: 20px 0 20px 0;
-    justify-content: center center;
-    text-align: center;
 }
 #one-content-image img{
     position: relative;
     display: inline-block;
-    width: 270px;
+    width: 280px;
 }
 
 
@@ -222,12 +220,12 @@ button{
     position: relative;
     width: 100%;
     margin-bottom: 10px;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
 }
 .button{
     background: none;
     margin: 3px;
+    margin-right: 5px;
     position: relative;
     text-decoration: none;
     font: 12px bold;
@@ -287,7 +285,7 @@ button{
     position: relative;
     width: 100%;
     height: auto;
-    padding: 25px 25px 20px 25px;
+    padding: 25px 20px;
     box-sizing: border-box;
     background: rgb(240,240,255);
 }
@@ -311,12 +309,10 @@ button{
     width: auto;
     height: auto;
     margin: 20px 0 20px 0;
-    text-align: center;
-    justify-content: center center;
 }
 #two-content-image img{
     position: relative;
-    width: 270px;
+    width: 280px;
     display: inline-block;
 }
 #two-content .buttons{
@@ -328,7 +324,7 @@ button{
     position: relative;
     width: 100%;
     height: auto;
-    padding: 25px 25px 20px 25px;
+    padding: 25px 20px;
     box-sizing: border-box;
     background: rgb(255,255,255);
 }
@@ -355,7 +351,7 @@ button{
 }
 #three-image img{
     position: relative;
-    width: 150px;
+    width: 100px;
     display: inline-block;
 }
 #left{
@@ -369,11 +365,11 @@ button{
     margin-bottom: 20px;
 }
 #three-content .section-sub-header{
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 30px;
 }
 #three-content .button{
-    font-size: 17px;
+    font-size: 15px;
 }
 #right{
     position: relative;
@@ -389,7 +385,7 @@ button{
     position: relative;
     width: 100%;
     height: auto;
-    padding: 25px 25px 20px 25px;
+    padding: 25px 20px;
     box-sizing: border-box;
     background: rgb(240,240,255);
 }
@@ -413,18 +409,16 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
-    text-align : center;
-    justify-content: center center;
 }
 #four-content-image img{
     position: relative;
-    width: 270px;
+    width: 280px;
 }
 #four-content .buttons{
     text-align: center;
 }
 #four-content .button{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /*Styling section five*/
@@ -432,7 +426,7 @@ button{
     position: relative;
     width: 100%;
     height: auto;
-    padding: 25px 25px 20px 25px;
+    padding: 25px 20px;
     box-sizing: border-box;
     background: rgb(255,255,255);
 }
@@ -471,7 +465,7 @@ button{
     margin-bottom: 20px;
 }
 #five-text h6{
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(24,12,71);
 }
 
@@ -479,14 +473,14 @@ button{
 footer{
     position: relative;
     box-sizing: border-box;
-    padding: 25px 25px 20px 25px;
+    padding:25px 20px;
     width: 100%;
     height: auto;
     background: rgb(163,2,85);
     text-align: center;
 }
 footer h3{
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(255,255,255);
 }
 footer h4{
@@ -511,6 +505,7 @@ footer h4{
     border: 1px solid rgb(255,255,255);
 }
 footer a{
+    font-size: 12px;
     text-decoration: none;
     color: rgb(255,255,255);
     display: block;
@@ -605,11 +600,11 @@ footer .fa-instagram {
 /*Styling for a larger mobile screen*/
 @media only screen and (min-width: 360px){
     .section-header{
-        font-size: 35px;
+        font-size: 27px;
         line-height: 0.9em;
     }
     .section-sub-header{
-        font-size: 16px;
+        font-size: 13px;
     }
     .button{
         font: 15px bold;
@@ -617,43 +612,43 @@ footer .fa-instagram {
 
     /*Styling section one*/
     #one{
-        padding: 10px 30px 25px 30px;
+        padding: 10px 20px 25px 20px;
     }
     #one-content-image img{
-        width: 300px;
+        width: 280px;
     }
 
     /*Styling section two*/
     #two{
-        padding: 25px 30px;
+        padding: 25px 20px;
     }
     #two-content-image img{
-        width: 300px;
+        width: 280px;
     }
 
     /*Styling section three*/
     #three{
-        padding: 25px 30px;
+        padding: 25px 20px;
     }
     #three-content .section-sub-header{
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
     #three-content .button{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /*Styling section four*/
     #four{
-        padding: 25px 30px 25px 30px;
+        padding: 25px 20px;
     }
     #four-content-image img{
-        width: 300px;
+        width: 280px;
     }
 
     /*Styling section five*/
     #five{
-        padding: 25px 30px 25px 30px;
+        padding: 25px 20px;
     }
     #five-inner{
         border-radius: 20px;
@@ -666,41 +661,41 @@ footer .fa-instagram {
         margin-bottom: 20px;
     }
     #five-text h6{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     /*Styling the footer*/
     footer h3{
-        font-size: 16px;
+        font-size: 15px;
     }
     footer a{
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 @media only screen and (min-width: 375px){
     /*Styling the footer*/
     footer h3{
-        font-size: 17px;
+        font-size: 16px;
     }
     #footer-three .big{
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 @media only screen and (min-width: 411px){
     .section-header{
-        font-size: 37px;
+        font-size: 32px;
         line-height: 0.9em;
     }
     .section-sub-header{
-        font-size: 17px;
+        font-size: 15px;
     }
     .button{
-        font: 17px bold;
+        font: 15px bold;
     }
 
     /*Styling section one*/
     #one{
-        padding: 10px 40px 30px 40px;
+        padding: 10px 25px 30px 25px;
     }
     #one-content-image img{
         width: 330px;
@@ -708,7 +703,7 @@ footer .fa-instagram {
 
     /*Styling section two*/
     #two{
-        padding: 30px 40px;
+        padding: 30px 25px;
     }
     #two-content-image img{
         width: 330px;
@@ -716,17 +711,17 @@ footer .fa-instagram {
 
     /*Styling section three*/
     #three{
-        padding: 30px 40px;
+        padding: 30px 25px;
     }
     #three-content .section-sub-header{
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
     #three-content .button{
-        font-size: 22px;
+        font-size: 18px;
     }
     #three-image img{
-        width: 150px;
+        width: 120px;
     }
 
     /*Styling section four*/
@@ -734,28 +729,28 @@ footer .fa-instagram {
         font-size: 17px;
     }
     #four{
-        padding: 25px 30px;
+        padding: 30px 25px;
     }
     #four-content-image img{
-        width: 330px;
+        width: 310px;
     }
 
     /*Styling section five*/
     #five{
-        padding: 25px 30px 25px 30px;
+        padding: 20px 25px;
     }
     #five-inner{
         border-radius: 20px;
     }
     #five-image img{
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
     }
     #five-text .section-sub-header{
         margin-bottom: 20px;
     }
     #five-text h6{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     /*Styling the footer*/
@@ -768,7 +763,7 @@ footer .fa-instagram {
 }
 @media only screen and (min-width: 560px){
     header{
-        padding: 20px 40px;
+        padding: 20px;
     }
     #mobile-header-content i{
         font-size: 30px;
@@ -778,19 +773,27 @@ footer .fa-instagram {
             right: 55px;
     }
     .section-header{
-        font-size: 40px;
+        font-size: 35px;
         line-height: 1em;
     }
     .section-sub-header{
-        font-size: 20px;
+        font-size: 17px;
+    }
+    .buttons{
+        text-align: center;
+        justify-content: center center;
     }
     .button{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /*Styling section one*/
     #one{
-        padding: 10px 55px 30px 55px;
+        padding: 10px 30px 30px 30px;
+    }
+    #one-content-image{
+        text-align: center;
+        justify-content: center center;
     }
     #one-content-image img{
         width: 400px;
@@ -800,7 +803,11 @@ footer .fa-instagram {
 
     /*Styling section two*/
     #two{
-        padding: 30px 55px;
+        padding: 30px;
+    }
+    #two-content-image{
+        text-align: center;
+        justify-content: center center;
     }
     #two-content-image img{
         width: 400px;
@@ -810,25 +817,29 @@ footer .fa-instagram {
 
     /*Styling section three*/
     #three{
-        padding: 30px 55px;
+        padding: 30px;
     }
     #three-content .section-sub-header{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 20px;
     }
     #three-content .button{
-        font-size: 25px;
+        font-size: 20px;
     }
     #three-image img{
-        width: 150px;
+        width: 130px;
     }
 
     /*Styling section four*/
     #four .button{
-        font-size: 20px;
+        font-size: 18px;
     }
     #four{
-        padding: 30px 55px;
+        padding: 30px;
+    }
+    #four-content-image{
+        text-align: center;
+        justify-content: center center;
     }
     #four-content-image img{
         width: 400px;
@@ -836,7 +847,7 @@ footer .fa-instagram {
         margin-bottom: 20px;
     }
     #four .button{
-        font: 20px bold;
+        font: 18px bold;
     }
     #four .buttons{
         margin: 0;
@@ -844,28 +855,28 @@ footer .fa-instagram {
 
     /*Styling section five*/
     #five{
-        padding: 30px 55px;
+        padding: 30px;
     }
     #five-inner{
         border-radius: 30px;
     }
     #five-image img{
-        height: 150px;
-        width: 150px;
+        height: 130px;
+        width: 130px;
     }
     #five-text .section-sub-header{
-        margin-bottom: 22px;
+        margin-bottom: 20px;
     }
     #five-text h6{
-        font-size: 17px;
+        font-size: 16px;
     }
 
     /*Styling the footer*/
     footer h3{
-        font-size: 18px;
+        font-size: 16px;
     }
     #footer-three .big{
-        font-size: 18px;
+        font-size: 16px;
     }
     footer a{
         font-size: 14px;
@@ -1067,7 +1078,7 @@ footer .fa-instagram {
         position: relative;
         width: 100%;
         height: auto;
-        padding: 10px 40px 30px 40px;
+        padding: 10px 30px 30px 30px;
     }
     #one-inner{
         position: relative;
@@ -1104,7 +1115,7 @@ footer .fa-instagram {
         position: relative;
         width: 100%;
         height: auto;
-        padding: 30px 40px;
+        padding: 30px;
     }
     #two-inner{
         position: relative;
@@ -1138,7 +1149,7 @@ footer .fa-instagram {
         position: relative;
         width: 100%;
         height: auto;
-        padding: 30px 40px;
+        padding: 30px;
     }
     #three-inner{
         position: relative;
@@ -1178,7 +1189,7 @@ footer .fa-instagram {
         position: relative;
         width: 100%;
         height: auto;
-        padding: 30px 40px;
+        padding: 30px;
     }
     #four-inner{
         position: relative;
@@ -1218,7 +1229,7 @@ footer .fa-instagram {
         position: relative;
         width: 100%;
         height: auto;
-        padding: 30px 40px;
+        padding: 30px;
     }
     #five-inner{
         position: relative;
@@ -1243,7 +1254,7 @@ footer .fa-instagram {
         position: relative;
         width: 100%;
         height: auto;
-        padding: 30px 40px;
+        padding: 30px;
     }
     #footer-content{
         position: relative;
