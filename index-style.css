@@ -192,7 +192,6 @@ button{
 .section-header{
     color: rgb(24,12,71);
     font-size: 25px;
-    line-height: 0.9em;
 }
 .section-sub-header{
     color: rgb(24,12,71);
@@ -601,7 +600,6 @@ footer .fa-instagram {
 @media only screen and (min-width: 360px){
     .section-header{
         font-size: 27px;
-        line-height: 0.9em;
     }
     .section-sub-header{
         font-size: 13px;
